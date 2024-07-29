@@ -1,0 +1,6 @@
+{
+  "watch": ["lib", "public", "index.ts", "*.html", "*.css", "*.js", "*.ts" , ".env"],
+  "ext": "ts,json",
+  "ignore": ["node_modules", "certificates"],
+  "exec": "ts-node index.ts ## use --host to expose the server to the network"
+}
